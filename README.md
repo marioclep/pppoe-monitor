@@ -15,6 +15,8 @@ Lee los contadores de cada sesión PPPoE por la API REST de RouterOS, guarda
 el historial en Postgres y avisa por email o Telegram cuando un cliente
 supera el umbral del mes.
 
+![Dashboard: conectados, tráfico actual, tráfico total de 24 h y estado de cada router](docs/screenshots/dashboard.png)
+
 ## Qué no hace
 
 - **No es DPI ni NetFlow:** no sabe qué sitios visita un cliente ni qué
@@ -42,6 +44,12 @@ supera el umbral del mes.
 - **Servidor:** CPU, memoria y disco de la máquina donde corre el monitor.
 - **Interfaz en español e inglés**, con tema claro y oscuro.
 - **Backups diarios** automáticos de la base.
+
+| Un cliente con mucha subida (posible TV box infectado) | Un cliente con mucha descarga, en inglés y tema oscuro |
+|---|---|
+| ![Detalle de un cliente: 163 GB de subida en el mes contra 11 GB de descarga](docs/screenshots/client-upload.png) | ![Detalle de un cliente en inglés y tema oscuro: 324 GB de descarga en pocas horas](docs/screenshots/client-dark-en.png) |
+
+![Página de un router: CPU, memoria, disco, conectados, tráfico y recursos](docs/screenshots/router.png)
 
 ## Compatibilidad
 

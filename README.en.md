@@ -15,6 +15,10 @@ It reads each PPPoE session's counters through the RouterOS REST API, keeps
 the history in Postgres, and alerts you by email or Telegram when a client
 goes over the monthly threshold.
 
+![Dashboard: online clients, current traffic, 24 h total traffic and the status of each router](docs/screenshots/dashboard.png)
+
+*(The screenshots show the Spanish interface, except the dark one.)*
+
 ## What it does not do
 
 - **It is not DPI or NetFlow:** it doesn't know which sites a client visits
@@ -44,6 +48,12 @@ goes over the monthly threshold.
 - **Server:** CPU, memory and disk of the machine running the monitor.
 - **Spanish and English interface**, with light and dark themes.
 - **Automatic daily backups** of the database.
+
+| A client with heavy upload (possibly an infected TV box) | A client with heavy download, in English and dark theme |
+|---|---|
+| ![Client detail: 163 GB uploaded this month versus 11 GB downloaded](docs/screenshots/client-upload.png) | ![Client detail in English and dark theme: 324 GB downloaded in a few hours](docs/screenshots/client-dark-en.png) |
+
+![Router page: CPU, memory, disk, online clients, traffic and resources](docs/screenshots/router.png)
 
 ## Compatibility
 

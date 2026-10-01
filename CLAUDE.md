@@ -78,3 +78,6 @@ el contexto privado de cada desarrollador.
   conectados.
 - Los gráficos por hora interpolan sobre los huecos en que el sistema estuvo
   apagado.
+- En inglés, las etiquetas del eje vertical del gráfico de velocidad se
+  parten en dos líneas ("600.00" / "Mbps") y la de arriba queda pisada
+  contra el borde.
