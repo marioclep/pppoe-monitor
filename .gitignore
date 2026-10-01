@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Env
+.env
+
+# OS
+.DS_Store
+
+# Database backups (docker compose "backup" service)
+backups/
+
+# Local only: private notes and tooling
+CLAUDE.local.md
+.superpowers/
