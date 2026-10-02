@@ -15,6 +15,10 @@ It reads each PPPoE session's counters through the RouterOS REST API, keeps
 the history in Postgres, and alerts you by email or Telegram when a client
 goes over the monthly threshold.
 
+> Installing with an AI assistant? Ask it to read [`AGENTS.md`](AGENTS.md):
+> it has the step-by-step install, how to verify it and what not to touch
+> (written in Spanish; most assistants handle it fine).
+
 ![Dashboard: online clients, current traffic, 24 h total traffic and the status of each router](docs/screenshots/dashboard.png)
 
 *(The screenshots show the Spanish interface, except the dark one.)*

@@ -3,6 +3,14 @@
 Todo lo de abajo está en la rama `rediseno-interfaz`, que todavía **no** se
 unió a `main` (incluye también `endurecimiento-produccion`).
 
+## 2026-10-02
+
+- Documentación: `AGENTS.md`, una guía para asistentes de IA (Claude Code,
+  Codex, Cursor, etc.) con requisitos verificables, instalación paso a paso,
+  preparación de los MikroTik, operación y problemas comunes. Incluye además
+  la guía de desarrollo que estaba en `CLAUDE.md`, que ahora la importa. Los
+  README la mencionan. Sin cambios de código.
+
 ## 2026-10-01
 
 - Se verificó en una instalación de producción el primer reinicio mensual: a las 00:05 locales se

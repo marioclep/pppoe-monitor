@@ -15,6 +15,10 @@ Lee los contadores de cada sesión PPPoE por la API REST de RouterOS, guarda
 el historial en Postgres y avisa por email o Telegram cuando un cliente
 supera el umbral del mes.
 
+> ¿Instalás con ayuda de un asistente de IA? Pedile que lea
+> [`AGENTS.md`](AGENTS.md): tiene la instalación paso a paso, cómo
+> verificarla y qué no hay que tocar.
+
 ![Dashboard: conectados, tráfico actual, tráfico total de 24 h y estado de cada router](docs/screenshots/dashboard.png)
 
 ## Qué no hace
